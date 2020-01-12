@@ -1,0 +1,140 @@
+﻿digraph G {
+node[fontname = Arial, fontsize = 20, fontsize = 20, fontname = Arial];
+S->W[label = " W", fontsize = 20, fontname = Arial];
+W->I[label = " I", fontsize = 20, fontname = Arial];
+I->T[label = " T", fontsize = 20, fontname = Arial];
+T->H[label = " H", fontsize = 20, fontname = Arial];
+H->Sp1[label = " пробел", fontsize = 20, fontname = Arial];
+Sp1->Sp1[label = " пробел", fontsize = 20, fontname = Arial];
+Sp1->Id1[label = "  _|a|..|z|A|..|Z", fontsize = 20, fontname = Arial];
+Id1->Id1[label = "  _|a|..|z|A|..|Z|0|..|9", fontsize = 20, fontname = Arial];
+Id1->Dot1[label = " .", fontsize = 20, fontname = Arial];
+Id1->Sp2[label = " пробел", fontsize = 20, fontname = Arial];
+Id1->Comma[label = " ,", fontsize = 20, fontname = Arial];
+Dot1->Id2[label = "  _|a|..|z|A|..|Z", fontsize = 20, fontname = Arial];
+Sp2->Sp2[label = " пробел", fontsize = 20, fontname = Arial];
+Id2->Sp2[label = " пробел", fontsize = 20, fontname = Arial];
+Sp2->Comma[label = " ,", fontsize = 20, fontname = Arial];
+Sp2->D[label = " D", fontsize = 20, fontname = Arial];
+Comma->Comma[label = " пробел", fontsize = 20, fontname = Arial];
+Comma->Id1[label = "  _|a|..|z|A|..|Z", fontsize = 20, fontname = Arial];
+Id2->Comma[label = " ,", fontsize = 20, fontname = Arial]
+Id2->Id2[label = "  _|a|..|z|A|..|Z|0|..|9", fontsize = 20, fontname = Arial];
+D->O[label = " O", fontsize = 20, fontname = Arial];
+O->Sp3[label = " пробел", fontsize = 20, fontname = Arial];
+Sp3->Sp3[label = " пробел", fontsize = 20, fontname = Arial];
+Sp3->Id3[label = "  _|a|..|z|A|..|Z", fontsize = 20, fontname = Arial];
+
+Id3->Id3[label = "  _|a|..|z|A|..|Z|0|..|9", fontsize = 20, fontname = Arial];
+Id3->Col[label = " :", fontsize = 20, fontname = Arial];
+Id3->CB1[label = " пробел", fontsize = 20, fontname = Arial];
+
+Id3->OB1[label = " [", fontsize = 20, fontname = Arial];
+OB1->OB1[label = " пробел", fontsize = 20, fontname = Arial];
+OB1->Id4[label = "  _|a|..|z|A|..|Z", fontsize = 20, fontname = Arial];
+Id4->Id4[label = "  _|a|..|z|A|..|Z|0|..|9", fontsize = 20, fontname = Arial];
+Id4->CB1[label = " ]", fontsize = 20, fontname = Arial];
+Id4->Sp4[label = " пробел", fontsize = 20, fontname = Arial];
+OB1->F1[label = " 1|..|9", fontsize = 20, fontname = Arial];
+OB1->M1[label = " -", fontsize = 20, fontname = Arial];
+OB1->Z1[label = " 0", fontsize = 20, fontname = Arial];
+M1->F1[label = " 1|..|9", fontsize = 20, fontname = Arial];
+F1->CB1[label = " ]", fontsize = 20, fontname = Arial];
+F1->Sp4[label = " пробел", fontsize = 20, fontname = Arial];
+F1->F1[label = " 0|..|9", fontsize = 20, fontname = Arial];
+Z1->Sp4[label = " пробел", fontsize = 20, fontname = Arial];
+Z1->CB1[label = " ]", fontsize = 20, fontname = Arial];
+Sp4->Sp4[label = " пробел", fontsize = 20, fontname = Arial];
+Sp4->CB1[label = " ]", fontsize = 20, fontname = Arial];
+CB1->CB1[label = " пробел", fontsize = 20, fontname = Arial];
+CB1->Col[label = " :", fontsize = 20, fontname = Arial];
+
+Id3->Col[label = " :", fontsize = 20, fontname = Arial];
+Col->Eq[label = " =", fontsize = 20, fontname = Arial];
+
+Eq->Eq[label = " пробел", fontsize = 40, fontname = Arial];
+Eq->Id5[label = "  _|a|..|z|A|..|Z", fontsize = 40, fontname = Arial];
+Id5->Id5[label = "  _|a|..|z|A|..|Z|0|..|9", fontsize = 40, fontname = Arial];
+Id5->Eq[label = " +|-|*|/", fontsize = 40, fontname = Arial];
+Id5->Sp6[label = " пробел", fontsize = 40, fontname = Arial];
+Id5->F[label = " ;", fontsize = 40, fontname = Arial];
+
+Id5->OB2[label = " [", fontsize = 40, fontname = Arial];
+OB2->OB2[label = " пробел", fontsize = 40, fontname = Arial];
+OB2->Id6[label = "  _|a|..|z|A|..|Z", fontsize = 40, fontname = Arial];
+Id6->Id6[label = "  _|a|..|z|A|..|Z|0|..|9", fontsize = 40, fontname = Arial];
+Id6->CB2[label = " ]", fontsize = 40, fontname = Arial];
+Id6->Sp5[label = " пробел", fontsize = 40, fontname = Arial];
+OB2->F3[label = " 1|..|9", fontsize = 40, fontname = Arial];
+OB2->M3[label = " -", fontsize = 40, fontname = Arial];
+OB2->Z3[label = " 0", fontsize = 40, fontname = Arial];
+M3->F3[label = " 1|..|9", fontsize = 40, fontname = Arial];
+F3->CB2[label = " ]", fontsize = 40, fontname = Arial];
+F3->Sp5[label = " пробел", fontsize = 40, fontname = Arial];
+F3->F3[label = " 0|..|9", fontsize = 40, fontname = Arial];
+Z3->Sp5[label = " пробел", fontsize = 40, fontname = Arial];
+Z3->CB2[label = " ]", fontsize = 40, fontname = Arial];
+Sp5->Sp5[label = " пробел", fontsize = 40, fontname = Arial];
+Sp5->CB2[label = " ]", fontsize = 40, fontname = Arial];
+CB2->F[label = " ;", fontsize = 40, fontname = Arial];
+CB2->Sp6[label = " пробел", fontsize = 40, fontname = Arial];
+CB2->Eq[label = " +|-|*|/", fontsize = 40, fontname = Arial];
+
+Sp6->Sp6[label = " пробел", fontsize = 40, fontname = Arial];
+Sp6->F[label = " ;", fontsize = 40, fontname = Arial];
+Sp6->Eq[label = " +|-|*|/", fontsize = 40, fontname = Arial];
+Sp6->D2[label = " D", fontsize = 40, fontname = Arial];
+Sp6->M[label = " M", fontsize = 40, fontname = Arial];
+D2->I2[label = " I", fontsize = 40, fontname = Arial];
+M->O2[label = " O", fontsize = 40, fontname = Arial];
+I2->V[label = " V", fontsize = 40, fontname = Arial];
+O2->V[label = " D", fontsize = 40, fontname = Arial];
+V->Eq[label = " пробел", fontsize = 40, fontname = Arial];
+
+Eq->Q1[label = " '", fontsize = 40, fontname = Arial];
+Q1->Any[label = " <любой символ>", fontsize = 40, fontname = Arial];
+Any->Any[label = " <любой символ>", fontsize = 40, fontname = Arial];
+Q1->Q2[label = " '", fontsize = 40, fontname = Arial];
+Any->Q2[label = " '", fontsize = 40, fontname = Arial];
+Q2->Q2[label = " пробел", fontsize = 40, fontname = Arial];
+Q2->F[label = " ;", fontsize = 40, fontname = Arial];
+
+Eq->F2[label = " 1|..|9", fontsize = 40, fontname = Arial];
+Eq->M2[label = " -", fontsize = 40, fontname = Arial];
+Eq->Z2[label = " 0", fontsize = 40, fontname = Arial];
+Eq->Dot2[label = " .", fontsize = 40, fontname = Arial];
+F2->F2[label = " 0|..|9", fontsize = 40, fontname = Arial];
+F2->E[label = " e|E", fontsize = 40, fontname = Arial];
+F2->F[label = " ;", fontsize = 40, fontname = Arial];
+F2->Eq[label = " +|-|*|/", fontsize = 40, fontname = Arial];
+F2->Sp6[label = " пробел", fontsize = 40, fontname = Arial];
+F2->Dot2[label = " .", fontsize = 40, fontname = Arial];
+M2->F2[label = " 1|..|9", fontsize = 40, fontname = Arial];
+M2->Dot2[label = " .", fontsize = 40, fontname = Arial];
+Z2->Dot2[label = " .", fontsize = 40, fontname = Arial];
+Z2->Sp6[label = " пробел", fontsize = 40, fontname = Arial];
+Z2->Eq[label = " +|-|*|/", fontsize = 40, fontname = Arial];
+Z2->F[label = " ;", fontsize = 40, fontname = Arial];
+
+Dot2->N[label = " 0|..|9", fontsize = 40, fontname = Arial];
+Dot2->E[label = " e|E", fontsize = 40, fontname = Arial];
+N->N[label = " 0|..|9", fontsize = 40, fontname = Arial];
+N->Sp6[label = " пробел", fontsize = 40, fontname = Arial];
+N->Eq[label = " +|-|*|/", fontsize = 40, fontname = Arial];
+N->F[label = " ;", fontsize = 40, fontname = Arial];
+N->E[label = " e|E", fontsize = 40, fontname = Arial];
+
+E->E[label = " пробел", fontsize = 40, fontname = Arial];
+E->Z4[label = " 0", fontsize = 40, fontname = Arial];
+Z4->Sp6[label = " пробел", fontsize = 40, fontname = Arial];
+Z4->F[label = " ;", fontsize = 40, fontname = Arial];
+Z4->Eq[label = " +|-|*|/", fontsize = 40, fontname = Arial];
+E->PM[label = " +|-", fontsize = 40, fontname = Arial];
+PM->PM[label = " пробел", fontsize = 40, fontname = Arial];
+PM->F4[label = " 1|..|9", fontsize = 40, fontname = Arial];
+E->F4[label = " 1|..|9", fontsize = 40, fontname = Arial];
+F4->Sp6[label = " пробел", fontsize = 40, fontname = Arial];
+F4->F[label = " ;", fontsize = 40, fontname = Arial];
+F4->Eq[label = " +|-|*|/", fontsize = 40, fontname = Arial];
+F4->F4[label = " 0|..|9", fontsize = 40, fontname = Arial];
+}
