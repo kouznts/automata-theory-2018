@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IndexOutOfRangeExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверная строка.
+Удалите лишние символы после точки с запятой.</value>
+  </data>
+  <data name="IsNotOneToNineExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Ранее был введён минус — введите цифру от 1 до 9, для продолжения ввода отрицательной константы.</value>
+  </data>
+  <data name="IsNotWhSpAndClSqBrExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Необходимо завершить ввод индекса — введите закрывающуюся квадратную скобку ].</value>
+  </data>
+  <data name="IsNotWhSpExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Введите пробел.</value>
+  </data>
+  <data name="IsNotWhSpIdentAndClSqBrExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Вы можете:
+* продолжить вводить символы идентификатора — введите букву, либо цифру, либо подчёркивание;
+* завершить ввод индекса — введите закрывающуюся квадратную скобку ].</value>
+  </data>
+  <data name="IsNotWhSpIdentAndIntConstExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Вы можете ввести:
+* идентификатор — введите букву, либо подчёркивание;
+* целую константу:
+** целая константа начинается с цифры от 1 до 9,
+** может быть отрицательной: для этого ввести минус,
+** может быть нулём.</value>
+  </data>
+  <data name="IsNotWhSpNumbAndClSqBrExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Вы можете:
+* продолжить вводить цифры: продолжить ввод константы;
+* завершить ввод индекса — введите закрывающуюся квадратную скобку ].</value>
+  </data>
+  <data name="IsNotWhSpOrOpsOrSemicolonExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Вы можете:
+* ввести пробел, чтобы далее вести операцию div или mod;
+* ввести символ операции: либо +, либо -, либо *, либо "/;
+* завершить ввод — введите точку с запятой.</value>
+  </data>
+  <data name="StateClosedSquareBracket1ExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Введите двоеточие.</value>
+  </data>
+  <data name="StateColonExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Введите знак равенства.</value>
+  </data>
+  <data name="StateDot2ExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Продолжатся ввод дробной части константы.
+Введите цифру, либо символ степени — латинские буквы e или E.</value>
+  </data>
+  <data name="StateEExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Необходимо продолжить ввод степени дробной части константы.
+Введите цифру, либо знак степени — + или -.</value>
+  </data>
+  <data name="StateEqualsSignExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Вы можете начать ввод:
+* идентификатора — введите букву, либо подчёркивание;
+* целой константы — введите цифру, либо минус;
+* константы с плавающей точкой — введите точку."</value>
+  </data>
+  <data name="StateFromOneToNine2ExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Вы можете:
+* начать ввод степени числа — введите латинскую букву e или E;
+* продолжить вводить целую часть константы — введите цифру;
+* можете начать ввод дробной части константы — введите точку;
+* ввести символ операции: либо +, либо -, либо *, либо \;
+* завершить ввод — введите точку с запятой.</value>
+  </data>
+  <data name="StateFromOneToNine4ExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Вы можете:
+* продолжить ввод степени дробной части — введите цифру;
+* ввести символ операции: либо +, либо -, либо *, либо /;
+* начать ввод операций div или mod — введите пробел;
+* завершить ввод — введите точку с запятой.</value>
+  </data>
+  <data name="StateIdentifier1ExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Вы можете:
+* продолжить вводить символы идентификатора переменной — введите букву, либо цифру, либо подчёркивание;
+* обратиться к члену переменной — введите точку;
+* начать ввод нескольких переменных — введите запятую."</value>
+  </data>
+  <data name="StateIdentifier2ExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Вы можете:
+* продолжить вводить символы идентификатора — введите букву, либо цифру, либо подчёркивание;
+* ввести следующий индентификатор — введите запятую.</value>
+  </data>
+  <data name="StateIdentifier3ExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Вы можете:
+* продолжить вводить символы идентификатора — введите букву, либо цифру, либо подчёркивание;
+* присвоить переменной/-ым значение — введите двоеточие;
+* обратиться к элементу массива — введите квадратную скобку.</value>
+  </data>
+  <data name="StateIdentifier5ExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Вы можете:
+* продолжить вводить идентификатор — введите букву, либо цифру, либо подчёркивание;
+* обратиться к элементу по индексу — введите квадратную скобку;
+* ввести символ операции: либо +, либо -, либо *, либо \;
+* завершить ввод — введите точку с запятой;
+* начать ввод символьной константы — введите одинарую кавычку.</value>
+  </data>
+  <data name="StateNumbersExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Вы можете:
+* продолжить вводить дробную часть константы — введите либо цифру, либо символ степень — латинскую букву e или E;
+* ввести символ операции: +, либо -, либо *, либо \;
+* завершить ввод — введите точку с запятой.</value>
+  </data>
+  <data name="StateSingleQuotationMark2ExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Вы завершили ввод символьной константы, никаких более действий с константой не предусмотрено, завершите ввод оператора — введите точку с запятой.</value>
+  </data>
+  <data name="StateSpace2ExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Вы можете:
+* продолжить вводить переменные — введите запятую;
+* закончить ввод переменных: присвоить им значение; для этого нужно ввести ключевой слово DO — введите заглавную букву D.</value>
+  </data>
+  <data name="StateSpace6Message" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Вы можете:
+* ввести символ операции: либо +, либо -, либо *, либо \;
+* начать ввод операций mod и div:
+** в первом случае введите строчную букву m,
+** в втором случае введите строчную букву d;
+** завершить ввод — введите точку с запятой.</value>
+  </data>
+  <data name="StateZero2ExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ.
+Вы можете:
+* начать ввод дробной части константы — введите точку;
+* ввести символ операции: либо +, либо -, либо *, либо \;
+* завершить ввод — введите точку с запятой.</value>
+  </data>
+  <data name="WrongIdentifierFirstSymbolExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный первый символ идентификатора.
+Введите букву, либо подчёркивание.</value>
+  </data>
+  <data name="WrongSymbOfResWordExceptionMessage" xml:space="preserve">
+    <value>Ошибка. Неверный символ ключевого слова.
+Введите заглавную букву ключевого слова.</value>
+  </data>
+</root>
