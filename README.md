@@ -1,5 +1,8 @@
 # Теория автоматов и формальных языков (2018)
 
+## Скриншот
+<img src="https://raw.githubusercontent.com/apkuznetsov/automata-theory-2018/master/README/screenshot.png" alt="скриншот">
+
 ## Задание
 Написать программу синтаксического анализа автоматного языка операторов присоединения языка Turbo Pascal, имеющего вид:
 
